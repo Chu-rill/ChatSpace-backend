@@ -38,5 +38,11 @@ io.on("connection", (socket) => {
   });
 });
 
+module.exports = (req, res) => {
+  server.listen(3000, () => {
+    console.log("Server listening on port 3000");
+  });
+};
+
 // Export the modules
 module.exports = { app, io, server, getReceiverSocketId };
