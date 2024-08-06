@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon server/index.js",
-    "start": "node server/index.js",
+    "dev": "index.js",
+    "start": "index.js",
     "build": "echo 'No build step for server'"
   },
   "keywords": [],
