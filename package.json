@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon server/index.js",
     "start": "node server/index.js",
-    "build": "npm install "
+    "build": "echo 'No build step for server'"
   },
   "keywords": [],
   "author": "",
