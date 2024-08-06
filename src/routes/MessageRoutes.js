@@ -1,5 +1,5 @@
 const express = require("express");
-const { io } = require("../socket/socket");
+const { io } = require("../../api/socket/socket");
 const {
   sendMessage,
   getMessages,

@@ -9,7 +9,7 @@ const server = http.createServer(app);
 //  initialize socket.io
 const io = Server(server, {
   cors: {
-    origin: ["http://localhost:5173"],
+    origin: ["http://localhost:5173", "https://chat-space-sand.vercel.app"],
     methods: ["GET", "POST", "PUT"],
   },
 });
