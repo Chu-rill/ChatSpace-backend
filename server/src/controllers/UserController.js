@@ -41,7 +41,7 @@ exports.getUserForSidebar = async (req, res) => {
 
 exports.editProfile = async (req, res) => {
   try {
-    const { username, Bio } = req.body;
+    const { username, Bio, profilePicture } = req.body;
     const userId = req.user._id; // Assuming you have the user's ID in req.user._id
 
     // Fetch the current user data
@@ -53,16 +53,22 @@ exports.editProfile = async (req, res) => {
 
     // Build the update object
     const updateFields = {};
-    if (username !== "") {
+    if (username !== undefined && username !== "") {
       updateFields.username = username;
     } else {
       updateFields.username = currentUser.username; // Retain the existing username
     }
 
-    if (Bio !== "") {
+    if (Bio !== undefined && Bio !== "") {
       updateFields.Bio = Bio;
     } else {
       updateFields.Bio = currentUser.Bio; // Retain the existing Bio
+    }
+
+    if (profilePicture !== undefined && profilePicture !== "") {
+      updateFields.profilePicture = profilePicture;
+    } else {
+      updateFields.profilePicture = currentUser.profilePicture; // Retain the existing profilePicture
     }
 
     console.log(`Update Fields: ${JSON.stringify(updateFields)}`);
