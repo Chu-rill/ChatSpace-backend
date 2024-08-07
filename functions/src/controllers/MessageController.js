@@ -2,6 +2,8 @@ const express = require("express");
 const Conversation = require("../model/conversation_model");
 const Message = require("../model/message_model");
 const { getReceiverSocketId } = require("../socket/socket");
+const NodeCache = require("node-cache");
+const messageCache = new NodeCache();
 
 exports.sendMessage = async (req, res, io) => {
   try {
@@ -28,10 +30,18 @@ exports.sendMessage = async (req, res, io) => {
       message,
     });
 
-    // Add the message to the conversation
+    // Add the message to the array
     conversation.messages.push(newMessage._id);
 
     await Promise.all([conversation.save(), newMessage.save()]);
+
+    // Update cache for both participants
+    const cacheKeySender = `conversation_${senderId}_${receiverId}`;
+    const cacheKeyReceiver = `conversation_${receiverId}_${senderId}`;
+
+    // Invalidate or update the cache for both participants
+    messageCache.del(cacheKeySender);
+    messageCache.del(cacheKeyReceiver);
 
     const receiverSocketId = getReceiverSocketId(receiverId);
     if (receiverSocketId) {
@@ -51,12 +61,33 @@ exports.getMessages = async (req, res) => {
   try {
     const { id: userToChatId } = req.params;
     const senderId = req.user._id;
+
+    // Generate a unique cache key for the conversation
+    const cacheKey = `conversation_${senderId}_${userToChatId}`;
+
+    // Check if messages are in cache
+    const cachedMessages = messageCache.get(cacheKey);
+    if (cachedMessages) {
+      return res.status(200).json(cachedMessages);
+    }
+
+    //fetch conversation from db
     const conversation = await Conversation.findOne({
       participants: { $all: [senderId, userToChatId] }, // Ensure both IDs are present
     }).populate("messages");
     if (!conversation) return res.status(200).json([]);
 
+    if (!conversation) {
+      // Cache an empty array if no conversation found
+      messageCache.set(cacheKey, []);
+      return res.status(200).json([]);
+    }
+
     const messages = conversation.messages;
+
+    // Store messages in cache
+    messageCache.set(cacheKey, messages);
+
     res.status(200).json(messages);
   } catch (error) {
     console.error(error); // Log the error for debugging

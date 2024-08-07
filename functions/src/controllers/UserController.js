@@ -1,43 +1,45 @@
 const User = require("../model/user_model");
-
+const Conversation = require("../model/conversation_model");
 exports.getUserForSidebar = async (req, res) => {
   try {
     const loggedInUserId = req.user._id;
+
+    // Fetch recent conversations where the logged-in user is a participant
+    const conversations = await Conversation.find({
+      participants: loggedInUserId,
+    })
+      .populate("messages", "senderId") // Populate messages to get senderId
+      .sort({ updatedAt: -1 }); // Sort conversations by last updated time
+
+    // Extract users from the most recent conversations
+    const recentUserIds = new Set();
+    for (const conversation of conversations) {
+      const recentMessage = conversation.messages[0]; // Get the most recent message
+      if (
+        recentMessage &&
+        recentMessage.senderId.toString() !== loggedInUserId.toString()
+      ) {
+        recentUserIds.add(recentMessage.senderId);
+      }
+    }
 
     // const allUsers = await User.find() add yourself to the sidebar
     const filteredUsers = await User.find({
       _id: { $ne: loggedInUserId },
     }).select("-password");
 
-    res.status(200).json(filteredUsers);
+    // Sort users with recent user IDs at the top
+    const sortedUsers = [
+      ...filteredUsers.filter((user) => recentUserIds.has(user._id)),
+      ...filteredUsers.filter((user) => !recentUserIds.has(user._id)),
+    ];
+
+    res.status(200).json(sortedUsers);
   } catch (error) {
     console.error(error); // Log the error for debugging
     res.status(500).json({ message: "Internal Server Error" });
   }
 };
-
-// exports.editProfile = async (req, res) => {
-//   try {
-//     const { username, Bio } = req.body;
-//     const userId = req.user._id; // Assuming you have the user's ID in req.user._id
-
-//     // Update the user
-//     const updatedUser = await User.findByIdAndUpdate(
-//       userId,
-//       { username, Bio },
-//       { new: true, runValidators: true } // options: return the updated document and run schema validators
-//     );
-
-//     if (!updatedUser) {
-//       return res.status(404).json({ message: "User not found" });
-//     }
-
-//     res.status(200).json(updatedUser);
-//   } catch (error) {
-//     console.error(error); // Log the error for debugging
-//     res.status(500).json({ message: "Internal Server Error" });
-//   }
-// };
 
 exports.editProfile = async (req, res) => {
   try {
@@ -94,14 +96,6 @@ exports.deleteUser = async (req, res) => {
   try {
     // Get the user ID from request parameters
     const { id } = req.params;
-
-    // Verify that the requesting user is allowed to delete this user
-    // This example assumes users can only delete their own accounts
-    // if (req.user._id.toString() !== id) {
-    //   return res
-    //     .status(403)
-    //     .json({ message: "Unauthorized to delete this account" });
-    // }
 
     // Find and delete the user
     const user = await User.findByIdAndDelete(id);
