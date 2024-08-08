@@ -1574,3 +1574,819 @@ Issues? Report them at https://github.com/firebase/firebase-tools/issues and att
 [debug] [2024-08-07T20:46:32.969Z] Functions emulator received unknown request at path /socket.io/
 [debug] [2024-08-07T20:46:38.014Z] Functions emulator received unknown request at path /socket.io/
 [debug] [2024-08-07T20:46:43.024Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:46:48.032Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:46:53.039Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:46:58.050Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:47:03.059Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:47:08.076Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:47:13.086Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:47:18.094Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:47:23.103Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:47:28.132Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:47:33.142Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:47:38.150Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:47:43.157Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:47:48.180Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:47:53.188Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:47:58.196Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:48:03.204Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:48:08.211Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:48:13.218Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:48:18.232Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:48:23.240Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:48:28.247Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:48:33.259Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:48:38.268Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:48:43.277Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:48:48.290Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:48:53.315Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:48:58.327Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:49:03.339Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:49:08.353Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:49:13.364Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:49:18.372Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:49:23.382Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:49:28.394Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:49:33.400Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:49:38.407Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:49:43.415Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:49:48.424Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:49:53.435Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:49:58.446Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:50:03.456Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:50:08.481Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:50:13.872Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:50:19.883Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:50:25.873Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:50:31.872Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:50:37.873Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:50:43.875Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:50:49.872Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:50:55.875Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:51:01.873Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:51:07.874Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:51:13.875Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:51:19.872Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:51:25.872Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:51:31.872Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:51:37.871Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:51:43.873Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:51:49.874Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:51:55.875Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:52:01.873Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:52:07.872Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:52:13.876Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:52:19.877Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:52:25.876Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:52:31.885Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:52:37.873Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:52:43.874Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:52:49.878Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:52:55.883Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:53:01.873Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:53:07.873Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:53:13.872Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:53:19.873Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:53:25.873Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:53:31.891Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:53:37.873Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:53:43.875Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:53:49.875Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:53:55.878Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:54:01.879Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:54:07.879Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:54:14.011Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:54:19.884Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:54:25.876Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:54:31.873Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:54:37.873Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:54:43.891Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:54:49.909Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:54:55.880Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:55:01.873Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:55:07.872Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:55:13.876Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:55:19.884Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:55:25.884Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:55:31.877Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:55:37.902Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:55:43.874Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:55:49.883Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:55:55.876Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:56:01.874Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:56:07.873Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:56:13.874Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:56:19.874Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:56:25.872Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:56:31.874Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:56:37.876Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:56:43.873Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:56:49.872Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:56:55.872Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:57:01.874Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:57:07.873Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:57:13.872Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:57:19.871Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:57:25.874Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:57:31.875Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:57:37.873Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:57:43.878Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:57:49.875Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:57:55.876Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:58:01.872Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:58:07.876Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:58:13.879Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:58:19.874Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:58:25.872Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:58:31.875Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:58:37.876Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:58:43.873Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:58:49.882Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:58:55.874Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:59:01.873Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:59:07.873Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:59:12.888Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:59:17.910Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:59:22.928Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:59:27.957Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:59:33.020Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:59:38.027Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:59:43.036Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:59:48.044Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T20:59:53.051Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:02:51.137Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:02:51.150Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:02:52.010Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:02:54.763Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:02:57.865Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:03:02.880Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:03:07.892Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:03:12.916Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:03:17.955Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:03:22.972Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:03:27.985Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:03:32.998Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:03:38.023Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:03:43.042Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:07:33.328Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:07:33.342Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:07:34.508Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:07:34.513Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:07:36.492Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:07:36.518Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:07:41.540Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:07:41.544Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:07:46.575Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:07:46.591Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:07:51.630Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:07:51.644Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:07:56.664Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:07:56.698Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:08:01.741Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:08:01.765Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:08:06.781Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:08:06.785Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:08:11.814Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:08:11.821Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:08:16.838Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:08:16.846Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:08:21.884Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:08:21.903Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:08:26.922Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:08:26.927Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:08:31.956Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:08:31.975Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:08:37.011Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:08:37.070Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:08:42.092Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:08:42.100Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:08:47.123Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:08:47.133Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:08:52.150Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:08:52.162Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:08:57.187Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:08:57.202Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:09:02.236Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:09:02.251Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:09:07.274Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:09:07.282Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:09:12.301Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:09:12.315Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:09:17.341Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:09:17.347Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:09:22.363Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:09:22.369Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:09:27.387Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:09:27.395Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:09:32.422Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:09:32.430Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:09:37.443Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:09:37.449Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:09:42.470Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:09:42.475Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:09:47.502Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:09:47.516Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:09:52.550Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:09:52.560Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:09:57.584Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:09:57.596Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:10:02.634Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:10:02.640Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:10:07.660Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:10:07.671Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:10:12.698Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:10:12.706Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:10:17.731Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:10:17.738Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:10:22.745Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:10:22.750Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:10:27.774Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:10:27.781Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:10:32.797Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:10:32.805Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:10:37.818Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:10:37.822Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:10:42.900Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:10:42.918Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:10:47.930Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:10:47.937Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:10:52.955Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:10:52.962Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:10:57.983Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:10:57.994Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:11:03.015Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:11:03.026Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:11:08.044Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:11:08.048Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:11:13.070Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:11:13.078Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:11:18.111Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:11:18.118Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:11:23.132Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:11:23.143Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:11:28.158Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:11:28.163Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:11:33.177Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:11:33.186Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:11:38.200Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:11:38.209Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:11:43.220Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:11:43.232Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:11:48.250Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:11:48.257Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:11:53.269Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:11:53.276Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:11:58.287Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:11:58.292Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:12:03.302Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:12:03.308Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:12:08.318Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:12:08.325Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:12:13.337Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:12:13.344Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:12:18.354Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:12:18.361Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:12:23.371Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:12:23.385Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:12:28.401Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:12:28.410Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:12:33.425Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:12:33.436Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:12:38.447Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:12:38.453Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:12:43.466Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:12:43.477Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:12:48.496Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:12:48.505Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:12:53.516Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:12:53.522Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:12:58.553Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:12:58.563Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:13:03.583Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:13:03.593Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:13:08.620Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:13:08.633Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:13:13.654Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:13:13.663Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:13:18.678Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:13:18.684Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:13:23.874Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:13:23.879Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:13:29.875Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:13:29.881Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:13:35.878Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:13:35.889Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:13:41.876Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:13:41.881Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:13:47.880Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:13:47.891Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:13:53.877Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:13:53.890Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:13:59.876Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:13:59.883Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:14:05.874Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:14:05.879Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:14:11.875Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:14:11.881Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:14:17.877Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:14:17.885Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:14:23.878Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:14:23.887Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:14:29.874Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:14:29.879Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:14:35.875Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:14:35.881Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:14:41.873Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:14:41.877Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:14:47.882Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:14:47.892Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:14:53.891Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:14:53.905Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:14:59.879Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:14:59.884Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:15:05.894Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:15:05.901Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:15:10.920Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:15:10.932Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:15:15.949Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:15:15.960Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:15:20.980Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:15:20.994Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:15:26.023Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:15:26.038Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:15:31.049Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:15:31.054Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:15:36.071Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:15:36.077Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:15:41.086Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:15:41.092Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:15:46.102Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:15:46.109Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:15:51.118Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:15:51.122Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:15:56.131Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:15:56.135Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:16:01.198Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:16:01.204Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:16:06.227Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:16:06.237Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:16:11.251Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:16:11.262Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:16:16.277Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:16:16.285Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:16:21.296Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:16:21.303Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:16:26.316Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:16:26.328Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:16:31.365Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:16:31.369Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:16:36.385Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:16:36.391Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:16:41.403Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:16:41.410Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:16:46.436Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:16:46.445Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:16:51.460Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:16:51.470Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:16:56.490Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:16:56.496Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:17:01.514Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:17:01.518Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:17:06.532Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:17:06.542Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:17:11.554Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:17:11.560Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:17:16.577Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:17:16.584Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:17:21.601Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:17:21.607Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:17:26.624Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:17:26.639Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:17:31.653Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:17:31.668Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:17:36.685Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:17:36.689Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:17:41.697Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:17:41.700Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:17:46.711Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:17:46.719Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:17:51.730Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:17:51.736Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:17:56.745Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:17:56.750Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:18:01.759Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:18:01.772Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:18:06.788Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:18:06.792Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:18:11.822Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:18:11.828Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:18:16.837Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:18:16.841Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:18:21.849Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:18:21.853Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:18:26.862Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:18:26.868Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:18:31.878Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:18:31.883Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:18:36.891Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:18:36.896Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:18:41.905Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:18:41.909Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:18:46.916Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:18:46.921Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:18:51.932Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:18:51.938Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:18:56.949Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:18:56.953Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:19:01.964Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:19:01.970Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:19:06.996Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:19:07.009Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:19:12.087Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:19:12.093Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:19:17.101Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:19:17.105Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:19:22.114Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:19:22.119Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:19:27.137Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:19:27.142Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:19:32.151Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:19:32.155Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:19:37.164Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:19:37.169Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:19:42.184Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:19:42.192Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:19:47.206Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:19:47.214Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:19:52.234Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:19:52.251Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:19:57.273Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:19:57.279Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:20:02.287Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:20:02.292Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:20:07.303Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:20:07.308Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:20:12.319Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:20:12.331Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:20:17.343Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:20:17.354Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:20:22.368Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:20:22.382Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:20:27.392Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:20:27.397Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:20:32.405Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:20:32.409Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:20:37.422Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:20:37.427Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:20:42.439Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:20:42.445Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:20:47.457Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:20:47.467Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:20:52.480Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:20:52.485Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:20:57.495Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:20:57.501Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:21:02.510Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:21:02.513Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:21:07.521Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:21:07.530Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:21:12.540Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:21:12.545Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:21:17.554Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:21:17.559Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:21:22.567Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:21:22.573Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:21:27.587Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:21:27.601Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:21:32.623Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:21:32.649Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:21:37.663Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:21:37.668Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:21:42.681Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:21:42.685Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:21:47.692Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:21:47.696Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:21:52.705Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:21:52.709Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:21:57.716Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:21:57.721Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:22:12.544Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:22:13.361Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:22:16.328Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:22:41.459Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:22:41.482Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:22:43.252Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:22:44.845Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:22:47.149Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:22:52.158Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:22:57.167Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:23:02.174Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:23:07.184Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:23:12.196Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:23:17.206Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:23:22.215Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:23:27.230Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:23:32.240Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:23:37.249Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:23:42.259Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:23:47.269Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:23:52.276Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:23:57.290Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:24:02.307Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:24:07.314Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:24:12.323Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:24:17.331Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:24:22.339Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:24:27.350Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:24:32.361Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:24:37.370Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:24:42.378Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:24:47.386Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:24:52.395Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:24:57.405Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:25:02.414Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:25:07.425Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:25:12.434Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:25:17.442Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:25:22.449Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:25:27.455Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:25:32.462Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:25:37.469Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:25:42.476Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:25:47.486Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:25:52.495Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:25:57.572Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:27:09.062Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:27:09.068Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:27:10.099Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:27:10.107Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:27:13.094Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:27:13.100Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:27:16.961Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:27:16.969Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:27:21.978Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:27:21.984Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:27:26.997Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:27:27.015Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:27:32.028Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:27:32.033Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:27:37.044Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:27:37.050Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:27:42.063Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:27:42.072Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:27:47.874Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:27:47.879Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:27:53.874Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:27:53.879Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:27:59.874Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:27:59.879Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:28:05.873Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:28:05.877Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:28:11.873Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:28:11.878Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:28:17.883Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:28:17.896Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:28:23.876Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:28:23.883Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:28:29.874Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:28:29.891Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:28:35.942Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:28:35.947Z] Functions emulator received unknown request at path /socket.io/
+[debug] [2024-08-07T21:28:36.925Z] Received signal SIGTERM 1
+[info]  
+[info] i  emulators: Received SIGTERM for the first time. Starting a clean shutdown. 
+[info] i  emulators: Please wait for a clean shutdown or send the SIGTERM signal again to stop right now. 
+[debug] [2024-08-07T21:28:38.896Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (/usr/local/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/modern.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-08-07T21:28:38.916Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (/usr/local/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/modern.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-08-07T21:28:38.917Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (/usr/local/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/modern.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-08-07T21:28:38.919Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (/usr/local/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/modern.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-08-07T21:28:38.920Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (/usr/local/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/modern.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-08-07T21:28:38.921Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (/usr/local/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/modern.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-08-07T21:28:38.921Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (/usr/local/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/modern.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-08-07T21:28:38.922Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (/usr/local/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/modern.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-08-07T21:28:38.923Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (/usr/local/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/modern.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-08-07T21:28:38.924Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (/usr/local/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/modern.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-08-07T21:28:38.925Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (/usr/local/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/modern.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-08-07T21:28:38.925Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (/usr/local/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/modern.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-08-07T21:28:38.926Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (/usr/local/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/modern.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-08-07T21:28:38.927Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (/usr/local/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/modern.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-08-07T21:28:38.927Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (/usr/local/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/modern.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-08-07T21:28:38.928Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (/usr/local/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/modern.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-08-07T21:28:38.929Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (/usr/local/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/modern.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-08-07T21:28:38.930Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (/usr/local/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/modern.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
