@@ -95,3 +95,21 @@ exports.getMessages = async (req, res) => {
   }
 };
 //comment
+
+exports.deleteMessage = async (req, res) => {
+  try {
+    //id of your message
+    const { id } = req.params;
+
+    const message = await Message.findByIdAndDelete(id);
+
+    if (!message) {
+      return res.status(404).json({ message: "message not found" });
+    }
+
+    res.status(200).json({ message: "Message deleted successfully" });
+  } catch (error) {
+    console.error(error); // Log the error for debugging
+    res.status(500).json({ message: "Could not delete message" });
+  }
+};

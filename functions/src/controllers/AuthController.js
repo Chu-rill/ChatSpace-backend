@@ -86,10 +86,10 @@ exports.login = async (req, res) => {
     });
 
     // Exclude password field manually before sending response
-    console.log(user);
+    // console.log(user);
     const { password: pwd, ...userWithoutPassword } = user.toObject();
     userWithoutPassword.token = token; // Add token to response body
-    console.log(`without: ${userWithoutPassword}`);
+    // console.log(`without: ${userWithoutPassword}`);
     return res.status(200).json(userWithoutPassword);
   } catch (error) {
     if (!res.headersSent) {
