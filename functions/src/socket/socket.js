@@ -11,8 +11,16 @@ const io = Server(server, {
   cors: {
     origin: ["http://localhost:5173", "https://chat-space-sand.vercel.app"],
     methods: ["GET", "POST", "PUT"],
+    allowedHeaders: ["Content-Type"],
+    credentials: true,
   },
 });
+// const io = Server(server, {
+//   cors: {
+//     origin: "*", // Allow requests from any origin
+//     methods: ["GET", "POST", "PUT"],
+//   },
+// });
 
 const getReceiverSocketId = (receiverId) => {
   return userSocketMap[receiverId];
