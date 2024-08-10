@@ -58,4 +58,11 @@ app.use("/api/auth", authRoutes);
 app.use("/api/msg", messageRoutes);
 app.use("/api/users", userRoutes);
 
-exports.api = functions.https.onRequest(app);
+// Export the function to handle both WebSocket and HTTP requests
+exports.api = functions.https.onRequest((req, res) => {
+  if (req.url.startsWith("/socket.io")) {
+    return server(req, res); // Handle WebSocket requests
+  } else {
+    return app(req, res); // Handle HTTP requests
+  }
+});
