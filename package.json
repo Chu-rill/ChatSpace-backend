@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js",
-    "start": "node functions/index.js",
+    "start": "node index.js",
     "build": "echo 'No build step for server'"
   },
   "keywords": [],
@@ -19,6 +19,7 @@
     "express": "^4.19.2",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.5.2",
+    "node-cache": "^5.1.2",
     "nodemon": "^3.1.4",
     "socket.io": "^4.7.5",
     "zustand": "^4.5.4"

@@ -71,7 +71,6 @@
 // // Export the function
 // exports.api = functions.https.onRequest(app);
 
-const functions = require("firebase-functions");
 const express = require("express");
 const path = require("path");
 const cors = require("cors");
@@ -130,5 +129,3 @@ mongoose
 app.use("/api/auth", authRoutes);
 app.use("/api/msg", messageRoutes);
 app.use("/api/users", userRoutes);
-
-exports.api = functions.https.onRequest(app);
