@@ -30,7 +30,7 @@ exports.signup = async (req, res) => {
       username,
       email,
       password: hashedPassword,
-      profilePicture: profilePicture || "", // Use the random URL or an empty string if none is found
+      profilePicture: profilePicture || "",
     });
 
     // Generate a token for the new user
@@ -38,10 +38,10 @@ exports.signup = async (req, res) => {
 
     // Set token in cookie
     res.cookie("jwt", token, {
-      httpOnly: true, // Prevent client-side access to the cookie
-      secure: process.env.NODE_ENV === "production", // Use secure cookies in production
-      sameSite: "None", // Cross-site cookies (use 'Strict' or 'Lax' if not using cross-site)
-      maxAge: 3600000, // Cookie expiration in milliseconds (1 hour)
+      httpOnly: true,
+      secure: process.env.NODE_ENV === "production",
+      sameSite: "None",
+      maxAge: 3600000,
     });
 
     // Send the response with the user details and token
@@ -50,7 +50,7 @@ exports.signup = async (req, res) => {
       username: newUser.username,
       email: newUser.email,
       profilePicture: newUser.profilePicture,
-      token, // Include the token in the response
+      token,
     });
   } catch (error) {
     res.status(500).json({ message: error.message });
@@ -61,7 +61,6 @@ exports.login = async (req, res) => {
   try {
     const { username, password } = req.body;
     const user = await User.findOne({ username });
-    console.log(user);
     const isPasswordCorrect = await bcrypt.compare(password, user.password);
 
     if (!user || !isPasswordCorrect) {
@@ -72,24 +71,20 @@ exports.login = async (req, res) => {
     user.isActive = true;
     await user.save();
 
-    // Generate token and set it in the cookies
-    // await generateToken(user._id);
     // Generate token
     const token = generateToken(user._id);
 
     // Set token in cookie
     res.cookie("jwt", token, {
-      httpOnly: true, // Prevent client-side access to the cookie
-      secure: process.env.NODE_ENV === "production", // Use secure cookies in production
-      sameSite: "None", // Cross-site cookies (use 'Strict' or 'Lax' if not using cross-site)
-      maxAge: 3600000, // Cookie expiration in milliseconds (1 hour)
+      httpOnly: true,
+      secure: process.env.NODE_ENV === "production",
+      sameSite: "None",
+      maxAge: 3600000,
     });
 
-    // Exclude password field manually before sending response
-    console.log(user);
+    // remove password from response
     const { password: pwd, ...userWithoutPassword } = user.toObject();
     userWithoutPassword.token = token; // Add token to response body
-    console.log(`without: ${userWithoutPassword}`);
     return res.status(200).json(userWithoutPassword);
   } catch (error) {
     if (!res.headersSent) {
