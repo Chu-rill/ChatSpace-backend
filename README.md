@@ -1,109 +1,110 @@
-# ChatSpace
+### **Backend README**
 
-ChatSpace is a full-stack chat application built with React for the frontend and Express for the backend. It allows users to sign up, log in, send and receive messages, and manage their profiles.
+<!-- ```md -->
+
+# Express Template TS
+
+An Express.js project template to kickstart your Node.js applications with a basic setup.
 
 ## Features
 
-- **User Authentication**: Sign up, log in, and log out.
-- **Messaging**: Send and receive messages in real-time.
-- **User Management**: View and update user profiles.
+**Express.js:** A minimalist web framework for Node.js.
+**ESLint:** For linting JavaScript code.
+**Pre-configured Routes:** Basic routing setup to get started with.
+**Environment Variables:** Uses .env file for environment configuration.
+**Nodemon:** For auto-restarting the server during development.
 
-## Technologies Used
-
-- **Frontend**: React, Zustand, React Router DOM, React Icons, React Hot Toast, DaisyUI
-- **Backend**: Express, Socket.IO, Mongoose
-- **Other**: bcryptjs, cookie-parser, cors, dotenv, jsonwebtoken, nodemon, socket.io-client
-
-## Getting Started
-
-### Prerequisites
-
-Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
-
-### Installation
-
-1. **Clone the repository**
-
-   ```bash
-   git clone <repository-url>
-   cd ChatSpace
-
-   ```
-
-2. **Install backend dependencies**
-
-   Navigate to the root folder and run:
-
-   ```bash
-   npm install
-   ```
-
-3. **Install frontend dependencies**
-   Navigate to the client folder and run:
-   ```bash
-   cd client
-   npm install
-   ```
-
-### Running the Application
-
-1. **Start the backend server**
-   From the root folder, run:
+# Project Structure
 
 ```bash
-npm run server
+express-template-ts/
+├── package.json
+├── package-lock.json
+├── README.md
+├── src
+│   ├── controllers
+│   │   ├── auth.controller.ts
+│   │   └── user.controller.ts
+│   ├── error
+│   │   ├── error.ts
+│   │   └── validation.error.ts
+│   ├── index.ts
+│   ├── middleware
+│   │   ├── jwt.ts
+│   │   └── ValidationMiddleware.ts
+│   ├── models
+│   │   └── User.ts
+│   ├── repositories
+│   │   └── user.repository.ts
+│   ├── routes
+│   │   ├── auth.routes.ts
+│   │   └── user.routes.ts
+│   ├── service
+│   │   └── user.service.ts
+│   ├── types
+│   │   └── types.d.ts
+│   ├── utils
+│   │   ├── db.ts
+│   │   ├── email.ts
+│   │   └── encryption.ts
+│   ├── validation
+│   │   └── auth.validation.ts
+│   └── views
+│       ├── forgetPassword.handlebars
+│       ├── welcome.hbs
+│       └── welcomeMessage.handlebars
+├── tsconfig.json
+└── vercel.json
 ```
 
-2. **Start the frontend development server**
-   From the client folder, run:
+# Prerequisites
+
+1. Node.js (v14 or higher)
+2. NPM or Yarn
+
+# Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Chu-rill/express-template-js.git
+
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd express-template-js
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Create a .env file based on the .env.example:
+
+```bash
+cp .env.example .env
+```
+
+5. Start the development server:
 
 ```bash
 npm run dev
 ```
 
-### Basic API Endpoints
+# Usage
 
-API Endpoints
+1. Open http://localhost:{PORT} in your browser to see the app running.
+2. Customize routes by modifying files in the routes/ folder.
 
-POST /api/auth/signup
-Create a new user.
+# Available Scripts
 
-POST /api/auth/login
-Log in a user.
+1. **npm start:** Starts the server in production mode.
+2. **npm run dev:** Starts the server with Nodemon for auto-reloading during development.
 
-POST /api/auth/logout/:id
-Log out a user.
+# License
 
-POST /api/msg/send/:id
-Send a message to a user.
-
-GET /api/msg/:id
-Get messages for a user.
-
-GET /api/users/
-Get a list of all users.
-
-PUT /api/users/update/:id
-Update user profile.
-
-### Configuration
-
-Create a .env file in the root folder and add the following environment variables:
-
-```bash
-PORT=5000
-MONGO_URI=<your-mongodb-uri>
-JWT_SECRET=<your-jwt-secret>
-```
-
-### Contributing
-
-Fork the repository.
-
-Create a new branch (git checkout -b feature-branch).
-
-Commit your changes (git commit -am 'Add new feature').
-
-Push to the branch (git push origin feature-branch).
-
-Create a new Pull Request.
+This project is licensed under the MIT License.
