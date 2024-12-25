@@ -59,3 +59,4 @@ const startServer = (req: Request, res: Response): void => {
 
 // Export the modules
 export { app, io, server, getReceiverSocketId, startServer };
+// console.log('hello')
