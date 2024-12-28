@@ -11,7 +11,7 @@ const server = http.createServer(app);
 // Initialize Socket.IO
 const io = new Server(server, {
   cors: {
-    origin: ["http://localhost:5173", "https://chat-space-sand.vercel.app"],
+    origin: ["*"],
     methods: ["GET", "POST", "PUT"],
   },
 });
@@ -59,4 +59,3 @@ const startServer = (req: Request, res: Response): void => {
 
 // Export the modules
 export { app, io, server, getReceiverSocketId, startServer };
-// console.log('hello')
