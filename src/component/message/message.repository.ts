@@ -1,5 +1,5 @@
 import Message from "../../model/message";
-import Conversation from "../../model/conversation";
+import conversationRepository from "../conversation/conversation.repository";
 
 class MessageRepository {
   public async sendMessage(
@@ -9,15 +9,17 @@ class MessageRepository {
   ): Promise<any> {
     try {
       // Check if conversation exists between sender and receiver
-      let conversation = await Conversation.findOne({
-        participants: { $all: [senderId, receiverId] },
-      });
+      let conversation = await conversationRepository.getConversation(
+        senderId,
+        receiverId
+      );
 
       // Create a new conversation if none exists
       if (!conversation) {
-        conversation = await Conversation.create({
-          participants: [senderId, receiverId],
-        });
+        conversation = await conversationRepository.createConversation(
+          senderId,
+          receiverId
+        );
       }
 
       // Create a new message
@@ -45,9 +47,10 @@ class MessageRepository {
   ): Promise<any> {
     try {
       // Fetch conversation from the database
-      const conversation = await Conversation.findOne({
-        participants: { $all: [senderId, userToChatId] },
-      });
+      const conversation = await conversationRepository.getConversation(
+        senderId,
+        userToChatId
+      );
 
       return conversation;
     } catch (error) {

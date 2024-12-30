@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 const URI: string =
-  process.env.MONGODB_URI || "mongodb://localhost:27017/template";
+  process.env.MONGODB_URI || "mongodb://localhost:27017/chatapp";
 
 export function connectDB(): void {
   mongoose

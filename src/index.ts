@@ -13,6 +13,7 @@ const swaggerDocument = YAML.load(
 );
 import authRoutes from "./component/auth/auth.routes";
 import userRoutes from "./component/user/user.routes";
+import messageRoutes from "./component/message/message.routes";
 
 // Load environment variables
 dotenv.config();
@@ -50,7 +51,7 @@ app.get("/", async (req: Request, res: Response) => {
 
 app.use("/api/v1/users", userRoutes);
 app.use("/api/v1/auth", authRoutes);
-app.use("/api/v1/docs", swaggerui.serve, swaggerui.setup(swaggerDocument));
+app.use("/api/v1/messages", messageRoutes);
 
 // Start server and connect to the database
 app.listen(port, () => {

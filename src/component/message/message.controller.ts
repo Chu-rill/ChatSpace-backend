@@ -1,72 +1,53 @@
 import { Request, Response } from "express";
-import { io, getReceiverSocketId } from "../../utils/socket";
-import Conversation from "../../model/conversation";
-import Message from "../../model/message";
+import messageRepository from "./message.repository";
 
-export const sendMessage = async (
-  req: Request,
-  res: Response
-): Promise<void> => {
-  try {
-    const { message } = req.body;
-    const { id: receiverId } = req.params;
-    const senderId = req.user._id; // Assuming req.user is properly typed middleware
+class MessageController {
+  /**
+   * Handles sending a message.
+   * @param req - Express request object
+   * @param res - Express response object
+   */
+  async sendMessage(req: Request, res: Response): Promise<void> {
+    try {
+      const { message } = req.body;
+      const { receiverId } = req.params;
+      const senderId = req.user._id; // Assuming req.user is set by middleware
 
-    // Check if conversation exists between sender and receiver
-    let conversation = await Conversation.findOne({
-      participants: { $all: [senderId, receiverId] },
-    });
+      const response = await messageRepository.sendMessage(
+        message,
+        receiverId,
+        senderId
+      );
 
-    // Create a new conversation if none exists
-    if (!conversation) {
-      conversation = await Conversation.create({
-        participants: [senderId, receiverId],
-      });
+      res.status(response.statusCode).json(response);
+    } catch (error) {
+      console.error(error); // Log the error for debugging
+      res.status(500).json({ message: "Internal Server Error" });
     }
+  }
 
-    // Create a new message
-    const newMessage = new Message({
-      senderId,
-      receiverId,
-      message,
-    });
+  /**
+   * Handles fetching messages between users.
+   * @param req - Express request object
+   * @param res - Express response object
+   */
+  async getMessages(req: Request, res: Response): Promise<void> {
+    try {
+      const { id: userToChatId } = req.params;
+      const senderId = req.user._id; // Assuming req.user is set by middleware
 
-    // Add the message to the array
-    conversation.messages.push(newMessage._id);
+      const messages = await messageRepository.getMessages(
+        senderId,
+        userToChatId
+      );
 
-    await Promise.all([conversation.save(), newMessage.save()]);
-
-    const receiverSocketId = getReceiverSocketId(receiverId);
-    if (receiverSocketId) {
-      // Send event to a specific client
-      io.to(receiverSocketId).emit("newMessage", newMessage);
+      res.status(messages.statusCode).json(messages);
+    } catch (error) {
+      console.error(error); // Log the error for debugging
+      res.status(500).json({ message: "Internal Server Error" });
     }
-
-    res.status(201).json(newMessage);
-  } catch (error) {
-    console.error(error); // Log the error for debugging
-    res.status(500).json({ message: "Internal Server Error" });
   }
-};
+}
 
-export const getMessages = async (
-  req: Request,
-  res: Response
-): Promise<void> => {
-  try {
-    const { id: userToChatId } = req.params;
-    const senderId = req.user._id; // Assuming req.user is properly typed middleware
-
-    // Fetch conversation from the database
-    const conversation = await Conversation.findOne({
-      participants: { $all: [senderId, userToChatId] },
-    }).populate("messages");
-
-    const messages = conversation.messages;
-
-    res.status(200).json(messages);
-  } catch (error) {
-    console.error(error); // Log the error for debugging
-    res.status(500).json({ message: "Internal Server Error" });
-  }
-};
+// Exporting the class instance
+export default new MessageController();
