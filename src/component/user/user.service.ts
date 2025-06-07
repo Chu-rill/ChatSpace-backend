@@ -82,7 +82,7 @@ class UserService {
           username: user.username,
           password: user.password,
           profilePicture: user.profilePicture,
-          Bio: user.Bio,
+          bio: user.bio,
           isActive: user.isActive,
           lastActive: user.lastActive,
           createdAt: user.createdAt,

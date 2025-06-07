@@ -12,7 +12,7 @@ export type User = {
   username: string;
   password: string;
   profilePicture: string;
-  Bio: string;
+  bio: string;
   isActive: boolean;
   lastActive: Date;
   createdAt: Date;
@@ -26,7 +26,7 @@ export type CreateUserResponse = {
     username: string;
     password: string;
     profilePicture: string;
-    Bio: string;
+    bio: string;
     isActive: boolean;
     lastActive: Date;
     createdAt: Date;
@@ -53,9 +53,12 @@ export type UserDocument = mongoose.Document & {
   username: string;
   password: string;
   profilePicture: string;
-  Bio: string;
+  email: string;
+  bio: string;
   isActive: boolean;
   lastActive: Date;
+  friends: mongoose.Types.ObjectId[];
+  blockedUsers: mongoose.Types.ObjectId[];
   createdAt: Date;
   _id: mongoose.Types.ObjectId | String;
 };

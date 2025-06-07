@@ -1,6 +1,6 @@
 import { Request, Response, NextFunction } from "express";
 const jwt = require("jsonwebtoken");
-const User = require("../component/user/User");
+const User = require("../model/User");
 
 const protect = async (req: Request, res: Response, next: NextFunction) => {
   let token;

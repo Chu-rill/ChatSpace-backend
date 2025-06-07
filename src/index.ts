@@ -6,20 +6,24 @@ import dotenv from "dotenv";
 import path from "path";
 import rateLimit from "express-rate-limit";
 import { connectDB } from "./utils/db";
-const swaggerui = require("swagger-ui-express");
-const YAML = require("yamljs");
-const swaggerDocument = YAML.load(
-  path.resolve(__dirname, ".././src/swagger.yaml")
-);
+// const swaggerui = require("swagger-ui-express");
+// const YAML = require("yamljs");
+// const swaggerDocument = YAML.load(
+//   path.resolve(__dirname, ".././src/swagger.yaml")
+// );
 import authRoutes from "./component/auth/auth.routes";
 import userRoutes from "./component/user/user.routes";
 import messageRoutes from "./component/message/message.routes";
+import mongoose from "mongoose";
 
 // Load environment variables
 dotenv.config();
 
 const app = express();
-const port = process.env.PORT || 3000; // Provide a fallback port in case PORT is undefined
+const PORT = process.env.PORT || 3000; // Provide a fallback port in case PORT is undefined
+
+const MONGODB_URL =
+  process.env.MONGODB_URI || "mongodb://localhost:27017/chatapp";
 
 // Set up the rate limiter to allow 100 requests per hour
 const limiter = rateLimit({
@@ -54,7 +58,15 @@ app.use("/api/v1/auth", authRoutes);
 app.use("/api/v1/messages", messageRoutes);
 
 // Start server and connect to the database
-app.listen(port, () => {
-  console.log(`Server started on port ${port}`);
-  // connectDB();
-});
+mongoose
+  .connect(MONGODB_URL)
+  .then(() => {
+    console.log("📦 Connected to MongoDB");
+    app.listen(PORT, () => {
+      console.log(`🚀 Server running on port ${PORT}`);
+    });
+  })
+  .catch((error) => {
+    console.error("❌ Database connection failed:", error.message);
+    process.exit(1);
+  });
